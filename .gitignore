@@ -3,3 +3,7 @@
 *.tfstate
 *.tfstate.*
 .terraform.*
+pulumi-project
+node_modules/
+*lock.json
+package.json
