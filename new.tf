@@ -4,9 +4,11 @@ output hello {
 }
 output onemore {
     value = "this is for the multi block"
+
 }
 output third {
     value = "this is the third output"
+    sensitive = true
 }
 variable text {
     default = "namaste"
