@@ -10,7 +10,7 @@ resource "aws_instance" "my_instance" {
   }
 
 }
-resource aws_s3_bucket prod_bucket {
-    bucket = "prod-22112223-2233"
-    
+resource "aws_s3_bucket" "prod_bucket" {
+  bucket = "prod-22112223-2233"
+
 }

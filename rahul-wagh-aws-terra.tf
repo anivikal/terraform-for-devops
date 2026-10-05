@@ -7,8 +7,8 @@
 # bucket logging 
 # object lock
 
-resource aws_s3_bucket "my_bucket1" {
-    bucket = "anirudh-v9"
+resource "aws_s3_bucket" "my_bucket1" {
+  bucket = "anirudh-v9"
 
 
 }
