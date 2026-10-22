@@ -1,0 +1,12 @@
+#blocks:
+providers
+Resources
+data
+variable 
+output
+terraform 
+modeule : reusable configs that can group related resources 
+import : pull in existing resources into your terraform state management
+
+provider block:
+it defines the provider that you want to use for your infrastructure. Providers are responsible for understanding API interactions and exposing resources. Each provider has its own set of configuration options.
